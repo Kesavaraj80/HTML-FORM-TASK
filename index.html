@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FORM</title>
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <div class="main_container">
+        <h1 class="heading">FORM</h1>
+        <div class="form_container">
+            <form action="" class="detailsform">
+                <table class="tg">
+                    <tbody>
+                        <tr class="table_row">
+                            <td class="row_name">Firstname</td>
+                            <td class="row_input"><input type="text" class="firstname inputbox"placeholder="Enter Firstname" required></td>
+                        </tr>
+                        <tr class="table_row">
+                            <td class="row_name">Lastname</td>
+                            <td class="row_input"><input type="text" class="lastname inputbox" placeholder="Enter Lastname"
+                                    required></td>
+                        </tr>
+                        <tr class="table_row">
+                            <td class="row_name">Address</td>
+                            <td class="row_input"><input type="text" class="address inputbox" placeholder="Enter Address"
+                                    required></td>
+                        </tr>
+                        <tr class="table_row">
+                            <td class="row_name">Pincode</td>
+                            <td class="row_input"><input type="text" class="pincode inputbox" placeholder="Enter Pincode"
+                                    required></td>
+                        </tr>
+                        <tr class="table_row">
+                            <td class="row_name">Gender</td>
+                            <td class="row_input">
+                                <input type="radio" class="male" value="Male" name="gender">
+                                <span class="g_name">Male</span>
+                                <input type="radio" class="male" value="Female" name="gender">
+                                <span class="g_name">Female</span>
+                            </td>
+                        </tr class="table_row">
+                        <tr class="table_row">
+                            <td class="row_name">Choice of Food</td>
+                            <td class="row_input food_data">
+                                <select class="food inputbox" multiple required>
+                                    <option value="VEG-Briyani">VEG-Briyani</option>
+                                    <option value="Chicken-Briyani">Chicken-Briyani</option>
+                                    <option value="Parotta">Parotta</option>
+                                    <option value="Naan">Naan</option>
+                                    <option value="Chapathi">Chapathi</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr class="table_row">
+                            <td class="row_name">State</td>
+                            <td class="row_input">
+                                <select class="State inputbox" required>
+                                    <option>--Select--</option>
+                                    <option value="Tamilnadu">Tamilnadu</option>
+                                    <option value="Kerala">Kerala</option>
+                                    <option value="Andhrapradesh">Andhrapradesh</option>
+                                    <option value="Karnataka">Karnataka</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr class="table_row">
+                            <td class="row_name">Country</td>
+                            <td class="row_input">
+                                <select class="country inputbox" required>
+                                    <option>--Select--</option>
+                                    <option value="India">India</option>
+                                    <option value="USA">USA</option>
+                                    <option value="England">England</option>
+                                    <option value="Russia">Russia</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+        <button class="submit" onclick="action()">SUBMIT</button>
+        <div class="op_table_container">
+            <table class="op_table">
+            <thead>
+              <tr>
+                <th class="tg-0pky">Firstname</th>
+                <th class="tg-0pky">Lastame</th>
+                <th class="tg-0lax">Address</th>
+                <th class="tg-0lax">Pincode</th>
+                <th class="tg-0lax">Gender</th>
+                <th class="tg-0lax">Food choice</th>
+                <th class="tg-0lax">State</th>
+                <th class="tg-0lax">Country</th>
+              </tr>
+            </thead>
+            <tbody class="Output_body">
+            </tbody>
+            </table>
+    </div>
+    </div>
+</body>
+
+</html>

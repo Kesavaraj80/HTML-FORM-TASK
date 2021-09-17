@@ -1,0 +1,62 @@
+.main_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Form design */
+
+.form_container{
+    background: turquoise;
+    height: auto;
+    width: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.row_name{
+    font-size:1.5rem;
+}
+.row_name{
+    height: 4rem;
+}
+
+.row_input{
+    padding-left: 50px;
+}
+
+.inputbox{
+    height: 2rem;
+    width: 20rem;
+}
+
+.food{
+    height: 5.5rem;
+    overflow: hidden;
+}
+/* Button */
+
+.submit{
+    border: none;
+    background-color: lightseagreen;
+    color: white;
+    height: 2rem;
+    width: 10rem;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+/* output table */
+
+.op_table_container,.op_table_row{
+    border: black 1px solid;
+    background: cadetblue;
+}
+
+.tg-0pky,.tg-0lax{
+    padding-right:8rem;
+    border: 1px solid lightcyan;
+}
